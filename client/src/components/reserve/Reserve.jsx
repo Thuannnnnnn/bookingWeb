@@ -86,7 +86,7 @@ const Reserve = ({ setOpen, hotelId }) => {
               <div className='rPrice'>{item.price}</div>
             </div>
             <div className='rSelectRooms'>
-              {item.roomNumbers?.map((roomNumber) => (
+              {item.roomNumber?.map((roomNumber) => (
                 <div className='room' key={roomNumber._id}>
                   <label>{roomNumber.number}</label>
                   <input
